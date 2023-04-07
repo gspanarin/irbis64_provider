@@ -15,8 +15,11 @@
         "php": ">=7.0"
     },
     "autoload": {
-        "classmap": [
-            "src/"
+        "psr-4": {
+            "irbis64_provider\\": "src/DeepCopy/"
+        },
+        "files": [
+            "src/irbis64_provider.php"
         ]
     }
 }
