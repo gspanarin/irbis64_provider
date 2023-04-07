@@ -1,0 +1,6 @@
+/__tmp
+/.github
+/.idea
+/nbproject
+/composer.lock
+/vendor

@@ -1,0 +1,22 @@
+{
+    "name": "gspanarin/irbis64_provider",
+    "description": "Class for connect to TCP/IP server ILS Irbis64",
+    "type": "library",
+    "keywords": ["provider", "ILS", "library system", "irbis64"],
+    "authors": [
+        {
+            "name": "Hennadii Panarin",
+            "email": "gspanarin@gmail.com"
+        }
+    ],
+    "version": "1.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
